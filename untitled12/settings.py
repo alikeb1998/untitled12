@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apifirst.apps.ApifirstConfig',
     "rest_framework",
+    "apifirst",
 
 ]
 
