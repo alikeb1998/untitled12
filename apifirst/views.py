@@ -13,3 +13,6 @@ class FishViewSet(viewsets.ModelViewSet):
 class AnimalViewSet(viewsets.ModelViewSet):
     queryset = models.animals.objects.all()
     serializer_class = serializers.AnimalSerializer
+class mamadViewSet(viewsets.ModelViewSet):
+    queryset = models.mamada.objects.all()
+    serializer_class = serializers.MamadSerializer

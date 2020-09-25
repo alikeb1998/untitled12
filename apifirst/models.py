@@ -11,3 +11,9 @@ class Fish(models.Model):
 class animals(models.Model):
     name = models.CharField(max_length=200)
     lastname = models.CharField(max_length=300)
+
+
+class mamada(models.Model):
+    name = models.CharField(max_length=200)
+    lastname = models.CharField(max_length=300)
+    date = models.DateTimeField("auto_now_add=true")

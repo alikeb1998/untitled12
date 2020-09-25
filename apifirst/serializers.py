@@ -12,3 +12,9 @@ class AnimalSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.animals
         fields = ("name", "lastname")
+
+
+class MamadSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.mamada
+        fields = ("name", "lastname", "date")

@@ -23,6 +23,7 @@ from apifirst import views
 router = routers.DefaultRouter()
 router.register(r'api/fishes', views.FishViewSet)
 router.register(r'api/animals',views.AnimalViewSet)
+router.register(r'api/mamada',views.mamadViewSet)
 admin.autodiscover()
 
 urlpatterns = [
